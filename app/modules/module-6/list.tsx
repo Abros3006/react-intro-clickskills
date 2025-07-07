@@ -8,7 +8,7 @@ const ListsPage = () => {
       <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-12">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-sm text-gray-400 mb-8">
-          <span>Module 1</span>
+          <span>Module 6</span>
           <ChevronRight className="w-4 h-4" />
           <span className="text-lime-400">Lists in React</span>
         </nav>
@@ -216,23 +216,17 @@ const ListsPage = () => {
           
           <div className="flex items-center space-x-4">
             <div className="text-sm text-gray-400">
-              Page 6 of 8 • Module 1
+              Page 2 of 2 • Module 6
             </div>
             <div className="flex space-x-2">
               <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
-              <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
-              <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
-              <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
-              <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
               <div className="w-2 h-2 bg-lime-400 rounded-full"></div>
-              <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
-              <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
             </div>
           </div>
           
           <button 
             className="flex items-center space-x-2 px-6 py-3 bg-lime-400 text-black font-semibold rounded-lg hover:bg-lime-300 transition-colors"
-            onClick={() => window.location.href = '/module-6/tanstack'}
+            onClick={() => window.location.href = '/module-7/tanstack'}
           >
             <span>Next</span>
             <ChevronRight className="w-4 h-4" />

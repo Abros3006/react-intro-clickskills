@@ -48,7 +48,7 @@ const Introduction = () => {
       id: 6,
       title: "Data Management",
       description: "Work with functions, lists, and manage complex data structures efficiently",
-      topics: ["Functions.tsx", "List.tsx", "Tanstack.tsx"],
+      topics: ["Functions.tsx", "List.tsx"],
       color: "from-blue-400 to-indigo-500",
       icon: <Clock className="w-6 h-6" />
     },
@@ -56,7 +56,7 @@ const Introduction = () => {
       id: 7,
       title: "Forms & Routing",
       description: "Build dynamic forms and implement navigation with React Router",
-      topics: ["Forms.tsx", "Routing.tsx"],
+      topics: ["Tanstack.tsx","Forms.tsx", "Routing.tsx"],
       color: "from-indigo-400 to-purple-500",
       icon: <ChevronRight className="w-6 h-6" />
     }
@@ -83,6 +83,14 @@ const Introduction = () => {
             src={react}
             className='color-white w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96'
           />
+        </div>
+        <div className="flex justify-center mt-12">
+            <button
+            className="px-8 py-3 bg-lime-400 text-black font-semibold rounded-lg hover:bg-lime-300 transition-colors"
+            onClick={() => window.open('https://clickskills.in/courses', '_blank')}
+            >
+            Start Learning
+            </button>
         </div>
       </section>
 

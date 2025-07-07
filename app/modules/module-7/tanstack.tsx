@@ -8,7 +8,7 @@ const TanStackPage = () => {
       <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-12">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-sm text-gray-400 mb-8">
-          <span>Module 6</span>
+          <span>Module 7</span>
           <ChevronRight className="w-4 h-4" />
           <span className="text-lime-400">TanStack Query</span>
         </nav>
@@ -250,10 +250,11 @@ const TanStackPage = () => {
           
           <div className="flex items-center space-x-4">
             <div className="text-sm text-gray-400">
-              Page 1 of 2 • Module 6
+              Page 1 of 3 • Module 7
             </div>
             <div className="flex space-x-2">
               <div className="w-2 h-2 bg-lime-400 rounded-full"></div>
+              <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
               <div className="w-2 h-2 bg-gray-600 rounded-full"></div>
             </div>
           </div>

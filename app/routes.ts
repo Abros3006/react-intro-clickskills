@@ -33,9 +33,9 @@ export default [
     // Module 6
     route("module-6/functions", "./modules/module-6/functions.tsx"),
     route("module-6/list", "./modules/module-6/list.tsx"),
-    route("module-6/tanstack", "./modules/module-6/tanstack.tsx"),
 
     // Module 7
+    route("module-7/tanstack", "./modules/module-7/tanstack.tsx"),
     route("module-7/forms", "./modules/module-7/forms.tsx"),
     route("module-7/routing", "./modules/module-7/routing.tsx"),
   ]),
